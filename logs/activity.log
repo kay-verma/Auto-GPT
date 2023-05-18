@@ -1,0 +1,69 @@
+2023-05-18 18:34:18,831 INFO NEWS: Welcome to Auto-GPT!
+2023-05-18 18:34:18,832 INFO NEWS: Below you'll find the latest Auto-GPT News and updates regarding features!
+2023-05-18 18:34:18,832 INFO NEWS: If you don't wish to see this message, you can run Auto-GPT with the --skip-news flag.
+2023-05-18 18:34:18,832 INFO NEWS: 
+2023-05-18 18:34:18,832 INFO NEWS: ::NEW BULLETIN::
+2023-05-18 18:34:18,832 INFO NEWS: 
+2023-05-18 18:34:18,832 INFO NEWS: Website and Documentation Site 📰📖
+2023-05-18 18:34:18,832 INFO NEWS: Check out https://agpt.co, the official news & updates site for Auto-GPT!
+2023-05-18 18:34:18,832 INFO NEWS: The documentation also has a place here, at https://docs.agpt.co
+2023-05-18 18:34:18,833 INFO NEWS: 
+2023-05-18 18:34:18,833 INFO NEWS: 🚀 v0.3.1 Release 🚀
+2023-05-18 18:34:18,833 INFO NEWS: Over a week and 47 pull requests have passed since v0.3.0, and we are happy to announce
+2023-05-18 18:34:18,833 INFO NEWS: the release of v0.3.1!
+2023-05-18 18:34:18,833 INFO NEWS: 
+2023-05-18 18:34:18,833 INFO NEWS: Highlights and notable changes in this release:
+2023-05-18 18:34:18,833 INFO NEWS: 
+2023-05-18 18:34:18,833 INFO NEWS: Changes to Docker configuration 🐋
+2023-05-18 18:34:18,833 INFO NEWS: The workdir has been changed from /home/appuser to /app.
+2023-05-18 18:34:18,833 INFO NEWS: Be sure to update any volume mounts accordingly!
+2023-05-18 18:34:18,833 INFO NEWS: 
+2023-05-18 18:34:18,833 INFO NEWS: ⚠️ Command `send_tweet` is DEPRECATED, and will be removed in v0.4.0 ⚠️
+2023-05-18 18:34:18,834 INFO NEWS: Twitter functionality (and more) is now covered by plugins, see [Plugin support 🔌]
+2023-05-18 18:34:18,834 INFO NEWS: 
+2023-05-18 18:34:18,834 INFO NEWS: Documentation
+2023-05-18 18:34:18,834 INFO NEWS: - Docker-compose 1.29.0 is now required, as documented.
+2023-05-18 18:34:18,834 INFO NEWS: - Path to the workspace directory in the setup guide has been corrected.
+2023-05-18 18:34:18,834 INFO NEWS: - Memory setup links have been updated.
+2023-05-18 18:34:18,834 INFO NEWS: 
+2023-05-18 18:34:18,834 INFO NEWS: Logs
+2023-05-18 18:34:18,834 INFO NEWS: - Log functionality has been improved for better understanding and easier summarization.
+2023-05-18 18:34:18,834 INFO NEWS: - User input is now logged in the logs/Debug Folder.
+2023-05-18 18:34:18,834 INFO NEWS: 
+2023-05-18 18:34:18,834 INFO NEWS: Other 
+2023-05-18 18:34:18,834 INFO NEWS: - Edge browser support has been added using EdgeChromiumDriverManager.
+2023-05-18 18:34:18,835 INFO NEWS: - Users now have the ability to disable commands via the .env file.
+2023-05-18 18:34:18,835 INFO NEWS: - Run scripts for both Windows (.bat) and Unix (.sh) have been updated.
+2023-05-18 18:34:18,835 INFO NEWS: 
+2023-05-18 18:34:18,835 INFO NEWS: BugFix
+2023-05-18 18:34:18,835 INFO NEWS: - DuckDuckGo dependency has been updated, with a minimum version set to 2.9.5.
+2023-05-18 18:34:18,835 INFO NEWS: - Package versions parsing has been enabled for forced upgrades.
+2023-05-18 18:34:18,835 INFO NEWS: - Docker volume mounts have been fixed.
+2023-05-18 18:34:18,835 INFO NEWS: - A fix was made to the plugin.post_planning call.
+2023-05-18 18:34:18,835 INFO NEWS: - A selenium driver object reference bug in the browsing results was fixed.
+2023-05-18 18:34:18,835 INFO NEWS: - JSON error in summary_memory.py has been handled.
+2023-05-18 18:34:18,836 INFO NEWS: - Dockerfile has been updated to add missing scripts and plugins directories.
+2023-05-18 18:34:18,836 INFO NEWS: 
+2023-05-18 18:34:18,836 INFO NEWS: CI
+2023-05-18 18:34:18,836 INFO NEWS: - The CI pipeline has been tightened up for improved performance.
+2023-05-18 18:34:18,836 INFO NEWS: - pytest-xdist Plugin has been integrated for parallel and concurrent testing.
+2023-05-18 18:34:18,836 INFO NEWS: - Tests have been conducted for a new CI pipeline.
+2023-05-18 18:34:18,836 INFO NEWS: - A code owners policy has been added.
+2023-05-18 18:34:18,836 INFO NEWS: - Test against Python 3.10 (not 3.10 + 3.11) to halve the number of tests that are executed.
+2023-05-18 18:34:18,836 INFO NEWS: 
+2023-05-18 18:34:18,836 INFO NEWS: Plugin support 🔌
+2023-05-18 18:34:18,837 INFO NEWS: Auto-GPT now has support for plugins! With plugins, you can extend Auto-GPT's abilities,
+2023-05-18 18:34:18,837 INFO NEWS: adding support for third-party services and more.
+2023-05-18 18:34:18,837 INFO NEWS: See https://github.com/Significant-Gravitas/Auto-GPT-Plugins for instructions and available plugins.
+2023-05-18 18:34:18,837 INFO NEWS: Denylist handling for plugins is now available.
+2023-05-18 18:34:18,838 INFO NEWS: 
+2023-05-18 18:34:18,838 INFO NEWS: From now on, we will be focusing on major improvements rather
+2023-05-18 18:34:18,838 INFO NEWS: than bugfixes, as we feel stability has reached a reasonable level. Most remaining
+2023-05-18 18:34:18,838 INFO NEWS: issues relate to limitations in prompt generation and the memory system, which will be
+2023-05-18 18:34:18,838 INFO NEWS: the focus of our efforts for the next release.
+2023-05-18 18:34:18,838 INFO NEWS: 
+2023-05-18 18:34:18,838 INFO NEWS: 
+2023-05-18 18:35:52,603 INFO Welcome to Auto-GPT!  run with '--help' for more information.
+2023-05-18 18:35:52,867 INFO Create an AI-Assistant: input '--manual' to enter manual mode.
+2023-05-18 18:35:53,215 INFO  Asking user via keyboard...
+2023-05-18 18:36:03,171 INFO DOUBLE CHECK CONFIGURATION Please double check that you have setup a PAID OpenAI API Account. You can read more here: https://docs.agpt.co/setup/#getting-an-api-key
